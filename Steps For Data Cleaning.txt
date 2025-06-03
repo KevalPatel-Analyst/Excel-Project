@@ -1,0 +1,36 @@
+🚀🚀Data Cleaning Project 🚀🚀
+
+GOAL:= The goal of this project was to clean and restructure a messy, cross-tabulated 		       Excel dataset into a well-organized tabular format using Power Query and Excel.        This transformation was essential for enabling effective analysis and reporting,        aligning the data structure with best practices in data analytics.
+
+Steps included in this project 
+
+1. Imported Data into Power Query
+•  Loaded the raw data from the Excelfile into Power Query.
+• Identified that the first row containedsegment headers instead of actual          column names.
+
+ 2. Promoted Headers & Handled Extra Rows
+• Used “Use First Row as Headers” to fix column names.
+• Removed any unnecessary or empty rows.
+
+3. Separated Consumer Type and Ship Mode
+• Observed that Consumer Type and Ship Mode were stored in a cross-tab format.
+• Extracted Consumer Type into a separate table.
+• Extracted Ship Mode into another table.
+
+4. Unpivoted Data for a Tabular Format
+• Unpivoted the Sales Data to make it more structured.
+• Ensured that the Consumer Type column was properly formatted.
+
+5. Standardized Values
+• Replaced inconsistent values (e.g., Corporate Total → Corporate).
+• Corrected any formatting issues in text and numbers.
+
+6. Merged Consumer Type and Ship Mode
+• Used Merge Queries to combine the ShipMode data with the Consumer Type table.
+• Joined both tables using a common column (e.g., Order ID).
+• Expanded the merged columns to include Ship Mode.
+
+7. Final Cleanup & Load Data to Excel
+• Verified data structure for correctness.
+• Removed any unnecessary columns.
+• Loaded the cleaned data back into Excel
