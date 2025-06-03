@@ -1,0 +1,40 @@
+The data includes 2,584 records with the following columns:
+
+1. **work_year**: Year of employment
+2. **experience_level**: Level of experience (e.g., Mid-Level, Senior-Level)
+3. **employment_type**: Type of employment (e.g., Full Time, Contract)
+4. **job_title**: Specific job titles (e.g., Data Scientist, ML Engineer)
+5. **salary(USD)**: Salary in USD
+6. **employee_residence**: Country of residence for employees
+7. **remote_ratio**: Percentage of remote work
+8. **company_location**: Company location country
+9. **company_size**: Company size (e.g., Small, Medium, Large)
+
+### Potential Business Questions and Insights
+
+Based on these columns, here are some meaningful insights and pivot ideas:
+
+1. **Salary by Experience Level and Job Title**:
+   - Identify how salaries vary by experience level (e.g., entry vs. senior).
+   - Compare average salaries across different job titles to identify high-paying roles.
+
+2. **Employment Type and Remote Ratio**:
+   - Analyze remote work distribution by employment type to see if full-time roles are more remote-friendly.
+   - Identify any patterns between employment type and salary to understand if contracting yields higher pay.
+
+3. **Salary by Company Location and Size**:
+   - Explore whether larger companies tend to offer higher salaries.
+   - Analyze if salaries differ significantly by company location, perhaps influenced by regional standards.
+
+4. **Trend Analysis by Year**:
+   - Observe trends in hiring practices, average salary growth, or changes in remote work ratios over time.
+
+5. **Cross-Country Comparison**:
+   - Compare average salaries across different countries.
+   - Identify countries with higher concentrations of remote roles or specific employment types.
+
+6. **Remote Ratio by Job Title and Experience Level**:
+   - Assess if certain roles or experience levels are more likely to be remote.
+   - Understand whether senior positions have more flexibility in remote work options.
+
+These insights could be visualized using pivot tables and charts for an interactive dashboard. Let me know if you’d like any specific analysis or visualizations on these points.
